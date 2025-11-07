@@ -1,8 +1,4 @@
-numpy
-torch
-torchvision
-ultralytics
 streamlit
-inference-sdk
+numpy
 pillow
-opencv-python-headless
+inference-sdk
