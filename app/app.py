@@ -1,10 +1,8 @@
 import streamlit as st
-import tempfile
-from pathlib import Path
-
+import io
 import numpy as np
 from PIL import Image
-from inference_sdk import InferenceHTTPClient
+import requests
 
 # Roboflow client config
 client = InferenceHTTPClient(
